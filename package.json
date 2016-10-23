@@ -1,0 +1,27 @@
+{
+	"name": "tapr",
+	"version": "1.0.0",
+	"description": "Make America Crafty Again",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "index.js"
+	},
+	"repository": {
+	"type": "git",
+	"url": "git+https://github.com/SubversiveIO/Tapr.git"
+	},
+	"keywords": [
+		"beer",
+		"craft"
+	],
+	"author": "SubersiveIO",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/SubversiveIO/Tapr/issues"
+	},
+	"homepage": "https://github.com/SubversiveIO/Tapr#readme",
+	"dependencies": {
+		"express": "^4.14.0"
+  }
+}
