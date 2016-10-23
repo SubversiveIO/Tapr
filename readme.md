@@ -1,0 +1,1 @@
+Tapr is an opensource project with the mission of providing breweries and brewery enthusiasts access to their passions.
