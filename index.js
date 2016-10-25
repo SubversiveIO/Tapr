@@ -10,3 +10,5 @@ var store = {
         return registrationID;
     }
 };
+
+
