@@ -1,46 +1,47 @@
 {
-	"name": "tapr",
-	"version": "1.0.0",
-	"description": "Make America Crafty Again",
-	"main": "index.js",
-	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1",
-		"start": "index.js",
-		"tsc": "tsc",
-		"tsc:w": "tsc -w"
-	},
-	"repository": {
-	"type": "git",
-	"url": "git+https://github.com/SubversiveIO/Tapr.git"
-	},
-	"keywords": [
-		"beer",
-		"craft"
-	],
-	"author": "SubersiveIO",
-	"license": "ISC",
-	"bugs": {
-		"url": "https://github.com/SubversiveIO/Tapr/issues"
-	},
-	"homepage": "https://github.com/SubversiveIO/Tapr#readme",
-	"dependencies": {
-		"express": "^4.14.0",
-		"@angular/common": "~2.1.1",
-		"@angular/compiler": "~2.1.1",
-		"@angular/core": "~2.1.1",
-		"@angular/forms": "~2.1.1",
-		"@angular/http": "~2.1.1",
-		"@angular/platform-browser": "~2.1.1",
-		"@angular/platform-browser-dynamic": "~2.1.1",
-		"@angular/router": "~3.1.1",
-		"@angular/upgrade": "~2.1.1",
-		"angular-in-memory-web-api": "~0.1.13",
-		"bootstrap": "^3.3.7",
-		"core-js": "^2.4.1",
-		"reflect-metadata": "^0.1.8",
-		"rxjs": "5.0.0-beta.12",
-		"systemjs": "0.19.39",
-		"zone.js": "^0.6.25"
+  "name": "tapr",
+  "version": "1.0.0",
+  "description": "Make America Crafty Again",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "index.js",
+    "tsc": "tsc",
+    "tsc:w": "tsc -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SubversiveIO/Tapr.git"
+  },
+  "keywords": [
+    "beer",
+    "craft"
+  ],
+  "author": "SubersiveIO",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SubversiveIO/Tapr/issues"
+  },
+  "homepage": "https://github.com/SubversiveIO/Tapr#readme",
+  "dependencies": {
+    "@angular/common": "~2.1.1",
+    "@angular/compiler": "~2.1.1",
+    "@angular/core": "~2.1.1",
+    "@angular/forms": "~2.1.1",
+    "@angular/http": "~2.1.1",
+    "@angular/platform-browser": "~2.1.1",
+    "@angular/platform-browser-dynamic": "~2.1.1",
+    "@angular/router": "~3.1.1",
+    "@angular/upgrade": "~2.1.1",
+    "angular-in-memory-web-api": "~0.1.13",
+    "bootstrap": "^3.3.7",
+    "core-js": "^2.4.1",
+    "express": "^4.14.0",
+    "reflect-metadata": "^0.1.8",
+    "rxjs": "5.0.0-beta.12",
+    "socket.io": "^1.5.1",
+    "systemjs": "0.19.39",
+    "zone.js": "^0.6.25"
   },
   "devDependencies": {
     "@types/core-js": "^0.9.34",
