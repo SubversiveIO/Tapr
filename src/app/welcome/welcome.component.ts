@@ -1,1 +1,0 @@
-//I'm not sure why there are module, main and a component ts files
