@@ -4,7 +4,7 @@ import { Component } from '@angular/core';
 	moduleId: module.id,
 	selector: 'welcome-view',
 	templateUrl: 'welcome.view.html',
-	styleUrls: ['welcome.less']
+	styleUrls: ['welcome.css']
 })
 
 export class WelcomeComponent { }
