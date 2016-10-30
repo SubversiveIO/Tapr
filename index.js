@@ -21,3 +21,6 @@ const server = express()
 	.listen(PORT, () => console.log(`Listening on ${ PORT }`));
 	
 const io = socketIO(server);
+
+
+// I took index.js out of the package.json so that it would play nicely with angular's transpiler and browser watch...

@@ -1,0 +1,46 @@
+section h1 {
+  color: #000;
+  font-size: 4em;
+  margin-top: 200px;
+  text-align: center;
+}
+section .fa-chevron-down {
+  border: 1px solid #000;
+  bottom: 65px;
+  padding: 5px 9px;
+  border-radius: 3px;
+  font-size: 2em;
+  left: 50%;
+  margin-left: -0.85em;
+  text-align: center;
+  position: absolute;
+  transform-origin: 60% 1em;
+  /* Animation property */
+  animation: wiggle 2s linear infinite;
+}
+/* Keyframes */
+@keyframes wiggle {
+  0%,
+  7% {
+    transform: rotateZ(0);
+  }
+  15% {
+    transform: rotateZ(-15deg);
+  }
+  20% {
+    transform: rotateZ(10deg);
+  }
+  25% {
+    transform: rotateZ(-10deg);
+  }
+  30% {
+    transform: rotateZ(6deg);
+  }
+  35% {
+    transform: rotateZ(-4deg);
+  }
+  40%,
+  100% {
+    transform: rotateZ(0);
+  }
+}
