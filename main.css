@@ -7,6 +7,20 @@ body {
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   font-family: 'Comfortaa', cursive;
 }
+header {
+  text-align: center;
+}
+header nav {
+  padding: 10px;
+}
+header nav button.btn-link,
+header nav button.btn-success {
+  border: 1px solid #000;
+  border-radius: 4px;
+  color: #000;
+  padding: 10px 20px;
+  margin: 0 5px;
+}
 welcome-view {
   text-align: center;
 }

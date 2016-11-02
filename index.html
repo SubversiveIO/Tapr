@@ -3,17 +3,18 @@
     <title>Tapr: Your path to Beer-lightenment</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="assets/vendor/bootstrap/tapr-bootstrap.css">
     <link rel="stylesheet" href="assets/vendor/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="main.css">
     <link href='http://fonts.googleapis.com/css?family=Comfortaa' rel='stylesheet' type='text/css'>
-    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="img/apple-touch-icon-57x57.png" />
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/apple-touch-icon-114x114.png" />
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/apple-touch-icon-72x72.png" />
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="img/apple-touch-icon-144x144.png" />
-    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="img/apple-touch-icon-120x120.png" />
-    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="img/apple-touch-icon-152x152.png" />
-    <link rel="icon" type="image/png" href="img/favicon-32x32.png" sizes="32x32" />
-    <link rel="icon" type="image/png" href="img/favicon-16x16.png" sizes="16x16" />
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="./assets/img/apple-touch-icon-57x57.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="./assets/img/apple-touch-icon-114x114.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="./assets/img/apple-touch-icon-72x72.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="./assets/img/apple-touch-icon-144x144.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="./assets/img/apple-touch-icon-120x120.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="./assets/img/apple-touch-icon-152x152.png" />
+    <link rel="icon" type="image/png" href="./assets/img/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="./assets/img/favicon-16x16.png" sizes="16x16" />
     <meta name="application-name" content="&nbsp;"/>
     <meta name="msapplication-TileColor" content="#FFFFFF" />
     <meta name="msapplication-TileImage" content="img/mstile-144x144.png" />
@@ -31,6 +32,30 @@
   </head>
   <!-- 3. Display the application -->
   <body>
+      <header>
+        <nav class="navbar">
+            <div class="container-fluid">
+                <ul>
+            		<button type="button" class="btn btn-link">
+                        <i class="fa fa-line-chart fa-fw" aria-hidden="true"></i>&nbsp; What's HOT??
+                    </button>
+                    <button type="button" class="btn btn-link">
+                        <i class="fa fa-map-marker fa-fw" aria-hidden="true"></i>&nbsp; Brewery Map
+                    </button>
+                    <button type="button" class="btn btn-link">
+                        <i class="fa fa-thumbs-up fa-fw" aria-hidden="true"></i>&nbsp; Rate
+                    </button>
+                    <button type="button" class="btn btn-link">
+                        About Tapr
+                    </button>
+
+                    <button type="button" class="btn btn-success pull-right">Sign up</button>
+                    <button type="button" class="btn btn-link pull-right">Sign In</button>
+            	</ul>
+            </div>
+        </nav>
+      </header>
+
     <welcome-view>Brewing...</welcome-view>
   </body>
 </html>
