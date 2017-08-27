@@ -6,6 +6,10 @@
 
 <script>
 
+import keys from './../.siteconfig.json'
+
+console.log(keys.breweryDB)
+
 export default {
   name: 'app'
 }

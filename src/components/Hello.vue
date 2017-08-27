@@ -15,6 +15,10 @@ export default {
     }
   }
 }
+
+const key = '../../../configs/keys.js/tapr'
+
+console.log(key)
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
