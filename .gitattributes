@@ -3,7 +3,7 @@
 * text=auto
 
 
-# Explicitly declare text files we want to always be normalized and converted 
+# Explicitly declare text files we want to always be normalized and converted
 # to native line endings on checkout.
 *.c text
 *.h text
@@ -12,6 +12,8 @@
 *.css text eol=crlf
 *.html text eol=crlf
 *.js text eol=crlf
+*.less text eol=crlf
+*.vue text eol=crlf
 
 # These files are text and should be normalized (Convert crlf => lf)
 *.gitattributes text
