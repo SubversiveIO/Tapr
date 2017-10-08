@@ -8,10 +8,15 @@
 
 import keys from './../.siteconfig.json'
 
-console.log(keys.breweryDB)
-
 export default {
-  name: 'app'
+  name: 'app',
+
+  mounted: function () {
+	axios({
+		method: 'get',
+		url: 'http:http://api.brewerydb.com/v2/locations?region=Colorado&key='+ {keys}
+	})
+  }
 }
 </script>
 
